@@ -1,0 +1,71 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #f7f8fc;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #4a90e2, #357ABD);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 0 0 30px 30px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.explore-btn {
+  background-color: white;
+  color: #357ABD;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  padding: 1.5rem;
+  background-color: #f0f0f0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #357ABD;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
